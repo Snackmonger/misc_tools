@@ -7,7 +7,7 @@ This program originally from github.com/nficano/humps
 
 Original docstring: "This module contains all the core logic for humps."
 
-This version revised by github/snackmonger in Oct 2024:
+This version revised by github.com/snackmonger in Oct 2024:
 - Add type annotations to function signatures
 - Remove ``Mapping`` and ``list`` types so the program only deals with ``str``. 
 - Rewrite docstrings for NumPy style, just because this is consistent with
