@@ -31,7 +31,7 @@ def encode_roman_numeral(indian_numeral: int) -> str:
 
     Raises
     ------
-    errors.BadValueError
+    ValueError
         If the number exceeds 3,999 in the Indian form.
 
     Examples

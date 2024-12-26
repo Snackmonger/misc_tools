@@ -7,12 +7,13 @@ This program originally from github.com/nficano/humps
 
 Original docstring: "This module contains all the core logic for humps."
 
-This version revised by github/snackmonger in Oct 2024:
+This version revised by github.com/snackmonger in Oct 2024:
 - Add type annotations to function signatures
 - Remove ``Mapping`` and ``list`` types so the program only deals with ``str``. 
 - Rewrite docstrings for NumPy style, just because this is consistent with
 my other projects. 
-- Move existing tests from separate files into docstrings as examples.
+- Move existing tests from separate files into docstrings as examples, so 
+this can serve as a standalone file like the other miscellaneous tools.
 - The current version of humps on GitHub is not consistent with the current 
 version on PyPi, causing some tests to fail. Reverted the SPLIT_RE regex to 
 previous and tests now pass.
