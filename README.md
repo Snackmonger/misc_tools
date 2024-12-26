@@ -5,7 +5,7 @@ Some of the tools are my own, usually the simple and stupid ones. Other tools ha
 
 ## Arithmology
 
-Convert between int and certain number words, e.g. "tertial", "triad", "heptatonic", "quadruple".
+Convert between integers and certain number words, e.g. "tertial" -> 3, "triad" -> 3, "heptatonic" -> 7, "quadruple" -> 4; (7, 'polyad') -> "heptad", (5, 'cardinal') -> "five"
 
 ## Humps 
 
@@ -13,4 +13,8 @@ Convert strings between various case systems, e.g. "snake_case", "PascalCase", "
 
 ## Numerus
 
-Convert between Indian and Roman numerals.
+Convert between Indian and Roman numerals, e.g. 'MDCCCLVII' -> 1858
+
+## Parsing
+
+Boilerplate code for building hand-rolled tokenizers and parsers. Really only meant for situations where you have to parse a relatively small language.
