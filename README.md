@@ -11,6 +11,10 @@ Convert between integers and certain number words, e.g. "tertial" -> 3, "triad" 
 
 Convert strings between various case systems, e.g. "snake_case", "PascalCase", "camelCase", "kebab-case" (modified from original by github.com/nficano)
 
+## Lexer
+
+A simple lexer to convert text into tokens. A simplified version of the lexer at https://github.com/lark-parser/lark/blob/master/lark/lexer.py with a few modifications.
+
 ## Numerus
 
 Convert between Indian and Roman numerals, e.g. 'MDCCCLVII' -> 1858
